@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Морской бой</title>
+        <link rel="stylesheet" href="./css/main.css?v=1.0">
+    </head>
+    <body>
+        <div class="content">
+            <div id="greeting" class="greeting">
+                <span class="game-title"> Добро пожаловать, хотите сыграть?</span>
+                <div class="user-names">
+                    <div>
+                        <input id="usernameInput" placeholder="Введите имя игрока" class="input">
+                    </div>
+                    <div>
+                        <input id="compnameInput" placeholder="Введите имя противника" class="input">
+                    </div>
+                    <div class="link-to-game">
+                        <button id="start" class="button" >Начать</button>
+                    </div>
+                </div>
+            </div>
+            <div id="game">
+
+                <div class="center">
+                    <div id="output"></div>
+                </div>
+                <div class="desc">
+                    <div>
+                        <div id="username" class="center"> Вы</div>
+                        <div id="battle-field-1"></div>
+                    </div>
+                    <div>
+                        <div id="compname" class="center"> Компьютер</div>
+                        <div id="battle-field-2"></div>
+                    </div>
+                </div>
+                <div class="center reload">
+                    <a href="./index.html" class="button" >Заново</a>
+                </div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>

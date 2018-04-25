@@ -1,0 +1,106 @@
+body{
+    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #dbe1ec;
+}
+.content{
+    margin: 30px auto;
+    max-width: 1200px;
+    background-color: #f7f8fb;
+}
+.greeting{
+    text-align: center;
+}
+.game-title{
+    font-size: 20px;
+}
+.user-names{
+    padding: 10px;
+}
+.input{
+    font-size: 15px;
+    color: #000;
+    border: 1px solid #d5d5d5;
+    padding: 5px 10px;
+    font-style: italic;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.link-to-game{
+    padding: 10px;
+}
+
+.button{
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    border: #dddddd;
+    border-radius: 5px;
+    background-color: #d3d3de;
+}
+.button:hover{
+    background-color: #c8c8dc;
+}
+
+.reload{
+    padding: 15px;
+}
+.center{
+    text-align: center;
+}
+
+.desc{
+    display: flex;
+    margin: 10px auto;
+    width: 685px;
+}
+
+
+#battle-field-1, #battle-field-2 {
+    width: 320px;
+    height: 320px;
+    margin: 10px;
+    border: 1px dashed black;
+}
+.ships-line {
+    color: grey;
+    margin: 10px;
+    line-height: 5px;
+    letter-spacing: 10px;
+}
+#battle-field-1 .busy {
+    background: #65b76e;
+}
+#battle-field-2 .busy, .empty {
+    background: #eee;
+}
+.damaged {
+    background-color: #ff9000;
+}
+
+.finished{
+    background: red;
+}
+
+.miss {
+    background: gray;
+}
+#battle-field-1 div, #battle-field-2 div {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid black;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+.hide{
+    display: none;
+}
+.unhide{
+    display: block !important;
+}
